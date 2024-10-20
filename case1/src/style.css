@@ -1,0 +1,124 @@
+@media (min-width: 600px) {
+  body {
+    background-image: url("resim.png");
+    background-color: #cccccc;
+    width: 100%;
+   
+       background-repeat: no-repeat; 
+       background-size: cover; 
+       margin: 0; 
+       padding: 0;
+   }
+
+    .split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+  
+  
+  .right {
+    right: 0;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+
+  }
+
+  }
+
+
+
+  .mgtop8{
+    margin-top: 10px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+  hr.solid{
+    margin-bottom:-10px;
+   
+    
+  }
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top:16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+   
+  }
+.loginbutton {
+    width: 100%;
+    margin-top:16px;
+    background-color:#32ABB5;
+    height:42px;
+    border-radius: 4px;
+    border: none;
+    outline:none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size:15px;
+   
+  }
+
+
+
+
+@media (max-width: 600px){
+
+
+  html, body {
+    background-color: #E1EFEF;
+    margin: 0;
+    padding: 0;
+    width: 100vw;  
+    height: 100vh; 
+    overflow: hidden;
+}
+
+  .container {
+    width: 90%;
+  }
+.login-form {
+ 
+  border-radius: 20px;
+  width: 80%;
+  background-color:#FFFFFF ;
+  height: max-content;
+  padding: 20px; /* Dış boşluklar */
+
+}
+
+.split{
+  width: 80%;
+}
+.centered{
+  width: 80%;
+}
+.right{
+  width: 80%;
+}
+
+} 
+
+
+
+
+  
